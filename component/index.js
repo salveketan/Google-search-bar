@@ -1,4 +1,4 @@
-// getting all required elements
+
 var search_input = document.querySelector(".input");
 var icon = search_input.querySelector(".icon");
 var link = search_input.querySelector("a");
