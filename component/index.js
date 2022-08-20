@@ -1,6 +1,6 @@
 
 var search_input = document.querySelector(".input");
-var icon = search_input.querySelector(".icon");
+var btn = search_input.querySelector(".icon");
 var link = search_input.querySelector("a");
 var input = search_input.querySelector("input");
 var suggBox = search_input.querySelector(".box");
@@ -15,7 +15,7 @@ input.onkeyup = (e) => {
     let data = e.target.value;
     let bag = [];
     if (data) {
-        icon.onclick = () => {
+        btn.onclick = () => {
             website = `https://www.google.com/search`;
             link.setAttribute("href", website);
             link.click();
